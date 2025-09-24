@@ -83,7 +83,7 @@ class _RecentsScreenState extends State<RecentsScreen> {
           ? Center(child: Text(l.noRecentChats)) // Example: "No recent chats"
           : ListView.separated(
         itemCount: _items.length,
-        separatorBuilder: (_, _) => const Divider(height: 1),
+        separatorBuilder: (context, index) => const Divider(height: 1),
         itemBuilder: (context, index) {
           final row = _items[index];
           final role = row['role'] ?? 'assistant';

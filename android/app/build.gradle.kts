@@ -17,7 +17,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.mitti_ai" // Changed here
+    namespace = "com.mittiai.app"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = "27.0.12077973"
     compileOptions {
@@ -41,11 +41,11 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.mitti_ai" // Changed here
-        minSdk = 23 //flutter.minSdkVersion
+        applicationId = "com.mittiai.app"
+        minSdk = flutter.minSdkVersion //flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
-        versionName = flutter.versionName
+        versionName = "1.0.1"
     }
 
     buildTypes {
