@@ -10,7 +10,7 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String greetingWithName(String userName) {
-    return 'नमस्ते $userName, आपका किसानी सहायक आपकी मदद के लिए यहाँ है。';
+    return 'नमस्ते $userName, आपका किसानी सहायक आपकी मदद के लिए यहाँ है।';
   }
 
   @override
@@ -23,7 +23,7 @@ class AppLocalizationsHi extends AppLocalizations {
   String get stateValidationError => 'कृपया अपना राज्य चुनें';
 
   @override
-  String get formValidationError => 'कृपया सभी आवश्यक फ़ील्ड भरें और चयन करें。';
+  String get formValidationError => 'कृपया सभी आवश्यक फ़ील्ड भरें और चयन करें।';
 
   @override
   String get greetingWithoutName =>
@@ -78,7 +78,7 @@ class AppLocalizationsHi extends AppLocalizations {
   String get nameHint => 'अपना पूरा नाम दर्ज करें';
 
   @override
-  String get nameValidationError => 'कृपया अपना नाम दर्ज करें';
+  String get nameValidationError => ' कृपया अपना नाम दर्ज करें';
 
   @override
   String get villageLabel => 'आपका गांव/शहर';
@@ -88,6 +88,16 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get villageValidationError => 'कृपया अपना गांव/शहर दर्ज करें';
+
+  @override
+  String get emailOptionalLabel => 'ईमेल (वैकल्पिक)';
+
+  @override
+  String get emailHint => 'आपका ईमेल उपयोगकर्ता नाम';
+
+  @override
+  String get emailInvalidError =>
+      'कृपया @gmail.com से पहले एक मान्य उपयोगकर्ता नाम दर्ज करें';
 
   @override
   String get languageHint => 'अपनी भाषा चुनें';
@@ -117,7 +127,7 @@ class AppLocalizationsHi extends AppLocalizations {
   String get noMessagesYetLabel => 'अभी तक कोई संदेश नहीं है।';
 
   @override
-  String get upcomingRemindersTitle => 'आగాमी रिमाइंडर';
+  String get upcomingRemindersTitle => 'आगामी रिमाइंडर';
 
   @override
   String get timeLabel => 'समय';
@@ -127,9 +137,6 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get addReminderFAB => 'रिमाइंडर जोड़ें';
-
-  @override
-  String get reminderTitleHint => 'रिमाइंडर शीर्षक (जैसे, पौधों को पानी दें)';
 
   @override
   String get noReminders => 'अभी तक कोई रिमाइंडर सेट नहीं है।';
@@ -147,7 +154,7 @@ class AppLocalizationsHi extends AppLocalizations {
   String get quickAccessTitle => 'त्वरित पहुँच';
 
   @override
-  String get historyTitle => 'हिस्ट्री';
+  String get historyTitle => 'इतिहास';
 
   @override
   String get libraryNavLabel => 'लाइब्रेरी';
@@ -189,6 +196,15 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get profileVillageLabel => 'गाँव';
+
+  @override
+  String get profileEmailLabel => 'ईमेल';
+
+  @override
+  String get profilePhoneLabel => 'फ़ोन';
+
+  @override
+  String get profileCropTypeLabel => 'फ़सल का प्रकार';
 
   @override
   String get languageSettingsLabel => 'भाषा सेटिंग्स';
@@ -267,7 +283,7 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get ensureTitleDateAndTime =>
-      'कृपया सुनिश्चित करें कि शीर्षक, तारीख और समय निर्धारित हैं。';
+      'कृपया सुनिश्चित करें कि शीर्षक, तारीख और समय निर्धारित हैं।';
 
   @override
   String get repeatDaily => 'दैनिक';
@@ -344,10 +360,10 @@ class AppLocalizationsHi extends AppLocalizations {
   }
 
   @override
-  String get historyScreenTitle => 'हिस्ट्री';
+  String get historyScreenTitle => 'इतिहास';
 
   @override
-  String get clearHistoryDialogTitle => 'हिस्ट्री साफ़ करें?';
+  String get clearHistoryDialogTitle => 'इतिहास साफ़ करें?';
 
   @override
   String get clearHistoryDialogContent => 'सभी सहेजे गए चैट हटाएं?';
@@ -369,7 +385,7 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get noLibraryItemsMessage =>
-      'कोई लाइब्रेरी आइटम नहीं मिला। रीफ्रेश करने के लिए नीचे खींचें या कोई भिन्न खोज आज़माएँ。';
+      'कोई लाइब्रेरी आइटम नहीं मिला। रीफ्रेश करने के लिए नीचे खींचें या कोई भिन्न खोज आज़माएँ।';
 
   @override
   String get categorySeeds => 'बीज';
@@ -423,4 +439,54 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get okAction => 'ठीक है';
+
+  @override
+  String get phoneLabel => 'फ़ोन नंबर';
+
+  @override
+  String get phoneHint => '12345 67890';
+
+  @override
+  String get phoneValidationError => 'कृपया अपना फ़ोन नंबर दर्ज करें';
+
+  @override
+  String get phoneInvalidError => 'फ़ोन नंबर 10 अंकों का होना चाहिए';
+
+  @override
+  String get cropTypeLabel => 'फ़सल का प्रकार';
+
+  @override
+  String get cropTypeHint => 'जैसे, गेहूँ, चावल';
+
+  @override
+  String get cropTypeValidationError =>
+      'फ़सल का प्रकार कम से कम 3 अक्षर लंबा होना चाहिए';
+
+  @override
+  String get privacyPolicyLabel => 'गोपनीयता नीति';
+
+  @override
+  String get privacyPolicyError => 'गोपनीयता नीति नहीं खोली जा सकी।';
+
+  @override
+  String get privacyPolicyTitle => 'गोपनीयता नीति';
+
+  @override
+  String get acceptAndContinueButton => 'स्वीकार करें और जारी रखें';
+
+  @override
+  String get supportText => 'समर्थन:';
+
+  @override
+  String get supportMessage =>
+      'किसी भी प्रश्न/समर्थन के लिए, इस उपरोक्त लिंक का अनुसरण करें।';
+
+  @override
+  String get emailError => 'ईमेल ऐप नहीं खोला जा सका।';
+
+  @override
+  String get urlLaunchError => 'समर्थन पृष्ठ नहीं खोला जा सका।';
+
+  @override
+  String get mittiAiSupportLink => 'मिट्टी एआई सहायता';
 }

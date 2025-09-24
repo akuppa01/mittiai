@@ -91,6 +91,16 @@ class AppLocalizationsEn extends AppLocalizations {
   String get villageValidationError => 'Please enter your village/town';
 
   @override
+  String get emailOptionalLabel => 'Email (Optional)';
+
+  @override
+  String get emailHint => 'Your email username';
+
+  @override
+  String get emailInvalidError =>
+      'Please enter a valid username before @gmail.com';
+
+  @override
   String get languageHint => 'Select your language';
 
   @override
@@ -128,9 +138,6 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get addReminderFAB => 'Add Reminder';
-
-  @override
-  String get reminderTitleHint => 'Reminder Title (e.g., Water plants)';
 
   @override
   String get noReminders => 'No reminders set yet.';
@@ -188,6 +195,15 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get profileVillageLabel => 'Village';
+
+  @override
+  String get profileEmailLabel => 'Email';
+
+  @override
+  String get profilePhoneLabel => 'Phone';
+
+  @override
+  String get profileCropTypeLabel => 'Crop Type';
 
   @override
   String get languageSettingsLabel => 'Language Settings';
@@ -422,4 +438,53 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get okAction => 'OK';
+
+  @override
+  String get phoneLabel => 'Phone Number';
+
+  @override
+  String get phoneHint => '12345 67890';
+
+  @override
+  String get phoneValidationError => 'Please enter your phone number';
+
+  @override
+  String get phoneInvalidError => 'Phone number must be 10 digits';
+
+  @override
+  String get cropTypeLabel => 'Crop Type';
+
+  @override
+  String get cropTypeHint => 'e.g., Wheat, Rice';
+
+  @override
+  String get cropTypeValidationError =>
+      'Crop type must be at least 3 characters long';
+
+  @override
+  String get privacyPolicyLabel => 'Privacy Policy';
+
+  @override
+  String get privacyPolicyError => 'Could not open privacy policy.';
+
+  @override
+  String get privacyPolicyTitle => 'Privacy Policy';
+
+  @override
+  String get acceptAndContinueButton => 'Accept and Continue';
+
+  @override
+  String get supportText => 'Support:';
+
+  @override
+  String get supportMessage => 'Any queries/support, follow the above link.';
+
+  @override
+  String get emailError => 'Could not open email app.';
+
+  @override
+  String get urlLaunchError => 'Could not open support page.';
+
+  @override
+  String get mittiAiSupportLink => 'Mitti AI Support';
 }

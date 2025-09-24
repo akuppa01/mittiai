@@ -91,6 +91,16 @@ class AppLocalizationsTe extends AppLocalizations {
   String get villageValidationError => 'దయచేసి మీ గ్రామం/పట్టణం నమోదు చేయండి';
 
   @override
+  String get emailOptionalLabel => 'ఇమెయిల్ (ఐచ్ఛికం)';
+
+  @override
+  String get emailHint => 'మీ ఇమెయిల్ యూజర్‌నేమ్';
+
+  @override
+  String get emailInvalidError =>
+      'దయచేసి @gmail.comకి ముందు చెల్లుబాటు అయ్యే యూజర్‌నేమ్‌ను నమోదు చేయండి';
+
+  @override
   String get languageHint => 'మీ భాషను ఎంచుకోండి';
 
   @override
@@ -130,10 +140,6 @@ class AppLocalizationsTe extends AppLocalizations {
   String get addReminderFAB => 'రిమైండర్ జోడించు';
 
   @override
-  String get reminderTitleHint =>
-      'రిమైండర్ శీర్షిక (ఉదా., మొక్కలకు నీరు పోయండి)';
-
-  @override
   String get noReminders => 'ఇంకా రిమైండర్‌లు సెట్ చేయబడలేదు.';
 
   @override
@@ -149,7 +155,7 @@ class AppLocalizationsTe extends AppLocalizations {
   String get quickAccessTitle => 'త్వరిత యాక్సెస్';
 
   @override
-  String get historyTitle => 'హిస్టరీ';
+  String get historyTitle => 'చరిత్ర';
 
   @override
   String get libraryNavLabel => 'లైబ్రరీ';
@@ -190,6 +196,15 @@ class AppLocalizationsTe extends AppLocalizations {
 
   @override
   String get profileVillageLabel => 'గ్రామం';
+
+  @override
+  String get profileEmailLabel => 'ఇమెయిల్';
+
+  @override
+  String get profilePhoneLabel => 'ఫోన్';
+
+  @override
+  String get profileCropTypeLabel => 'పంట రకం';
 
   @override
   String get languageSettingsLabel => 'భాషా సెట్టింగ్‌లు';
@@ -427,4 +442,54 @@ class AppLocalizationsTe extends AppLocalizations {
 
   @override
   String get okAction => 'సరే';
+
+  @override
+  String get phoneLabel => 'ఫోన్ నంబర్';
+
+  @override
+  String get phoneHint => '12345 67890';
+
+  @override
+  String get phoneValidationError => 'దయచేసి మీ ఫోన్ నంబర్‌ను నమోదు చేయండి';
+
+  @override
+  String get phoneInvalidError => 'ఫోన్ నంబర్ తప్పనిసరిగా 10 అంకెలు ఉండాలి';
+
+  @override
+  String get cropTypeLabel => 'పంట రకం';
+
+  @override
+  String get cropTypeHint => 'ఉదా., గోధుమ, బియ్యం';
+
+  @override
+  String get cropTypeValidationError =>
+      'పంట రకం తప్పనిసరిగా కనీసం 3 అక్షరాలు ఉండాలి';
+
+  @override
+  String get privacyPolicyLabel => 'గోప్యతా విధానం';
+
+  @override
+  String get privacyPolicyError => 'గోప్యతా విధానాన్ని తెరవలేకపోయాము.';
+
+  @override
+  String get privacyPolicyTitle => 'గోప్యతా విధానం';
+
+  @override
+  String get acceptAndContinueButton => 'ఆమోదించి కొనసాగించు';
+
+  @override
+  String get supportText => 'మద్దతు:';
+
+  @override
+  String get supportMessage =>
+      'ఏవైనా ప్రశ్నలు/మద్దతు కోసం, పై లింక్ ని అనుసరించండి.';
+
+  @override
+  String get emailError => 'ఇమెయిల్ యాప్‌ను తెరవలేకపోయాము.';
+
+  @override
+  String get urlLaunchError => 'మద్దతు పేజీని తెరవలేకపోయాము.';
+
+  @override
+  String get mittiAiSupportLink => 'మిట్టి AI మద్దతు';
 }

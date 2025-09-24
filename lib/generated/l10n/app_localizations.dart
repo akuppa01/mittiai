@@ -256,6 +256,24 @@ abstract class AppLocalizations {
   /// **'Please enter your village/town'**
   String get villageValidationError;
 
+  /// No description provided for @emailOptionalLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Email (Optional)'**
+  String get emailOptionalLabel;
+
+  /// No description provided for @emailHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Your email username'**
+  String get emailHint;
+
+  /// No description provided for @emailInvalidError.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a valid username before @gmail.com'**
+  String get emailInvalidError;
+
   /// No description provided for @languageHint.
   ///
   /// In en, this message translates to:
@@ -333,12 +351,6 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Add Reminder'**
   String get addReminderFAB;
-
-  /// No description provided for @reminderTitleHint.
-  ///
-  /// In en, this message translates to:
-  /// **'Reminder Title (e.g., Water plants)'**
-  String get reminderTitleHint;
 
   /// No description provided for @noReminders.
   ///
@@ -447,6 +459,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Village'**
   String get profileVillageLabel;
+
+  /// No description provided for @profileEmailLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Email'**
+  String get profileEmailLabel;
+
+  /// No description provided for @profilePhoneLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Phone'**
+  String get profilePhoneLabel;
+
+  /// No description provided for @profileCropTypeLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Crop Type'**
+  String get profileCropTypeLabel;
 
   /// No description provided for @languageSettingsLabel.
   ///
@@ -873,6 +903,102 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'OK'**
   String get okAction;
+
+  /// No description provided for @phoneLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Phone Number'**
+  String get phoneLabel;
+
+  /// No description provided for @phoneHint.
+  ///
+  /// In en, this message translates to:
+  /// **'12345 67890'**
+  String get phoneHint;
+
+  /// No description provided for @phoneValidationError.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter your phone number'**
+  String get phoneValidationError;
+
+  /// No description provided for @phoneInvalidError.
+  ///
+  /// In en, this message translates to:
+  /// **'Phone number must be 10 digits'**
+  String get phoneInvalidError;
+
+  /// No description provided for @cropTypeLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Crop Type'**
+  String get cropTypeLabel;
+
+  /// No description provided for @cropTypeHint.
+  ///
+  /// In en, this message translates to:
+  /// **'e.g., Wheat, Rice'**
+  String get cropTypeHint;
+
+  /// No description provided for @cropTypeValidationError.
+  ///
+  /// In en, this message translates to:
+  /// **'Crop type must be at least 3 characters long'**
+  String get cropTypeValidationError;
+
+  /// No description provided for @privacyPolicyLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Privacy Policy'**
+  String get privacyPolicyLabel;
+
+  /// No description provided for @privacyPolicyError.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not open privacy policy.'**
+  String get privacyPolicyError;
+
+  /// No description provided for @privacyPolicyTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Privacy Policy'**
+  String get privacyPolicyTitle;
+
+  /// No description provided for @acceptAndContinueButton.
+  ///
+  /// In en, this message translates to:
+  /// **'Accept and Continue'**
+  String get acceptAndContinueButton;
+
+  /// No description provided for @supportText.
+  ///
+  /// In en, this message translates to:
+  /// **'Support:'**
+  String get supportText;
+
+  /// No description provided for @supportMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'Any queries/support, follow the above link.'**
+  String get supportMessage;
+
+  /// No description provided for @emailError.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not open email app.'**
+  String get emailError;
+
+  /// No description provided for @urlLaunchError.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not open support page.'**
+  String get urlLaunchError;
+
+  /// No description provided for @mittiAiSupportLink.
+  ///
+  /// In en, this message translates to:
+  /// **'Mitti AI Support'**
+  String get mittiAiSupportLink;
 }
 
 class _AppLocalizationsDelegate

@@ -2,7 +2,7 @@ name: mitti_ai
 description: "A farming assistant app."
 publish_to: 'none'
 
-version: 1.0.0+1
+version: 1.0.1+2
 
 environment:
   sdk: '>=3.8.1 <4.0.0'
@@ -27,18 +27,23 @@ dependencies:
   timezone: ^0.9.4
   dio: ^5.9.0
   flutter_dotenv: ^6.0.0
-  audioplayers: ^6.5.0
+  audioplayers: ^6.5.1
   path_provider: ^2.1.5
   permission_handler: ^12.0.1
   webfeed_revised: ^0.9.0
-  connectivity_plus: ^6.1.5  # optional - detect connectivity
+  connectivity_plus: ^7.0.0  # optional - detect connectivity
   html: ^0.15.6
   workmanager: ^0.9.0+3
   sqflite: ^2.4.2
   path: ^1.9.1
   url_launcher: ^6.3.2
   flutter_native_splash: ^2.4.6
-
+  firebase_core: ^4.1.1  # Check for the latest version on pub.dev
+  firebase_auth: ^6.1.0 # Check for the latest version on pub.dev
+  cloud_firestore: ^6.0.2 # Check for the latest version on pub.dev (for storing user data)
+  device_info_plus: ^12.1.0 # Or the latest version
+  package_info_plus: ^9.0.0 # Or the latest version
+  firebase_analytics: ^12.0.2
 
 
 
