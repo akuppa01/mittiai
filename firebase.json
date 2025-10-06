@@ -1,0 +1,1 @@
+{"flutter":{"platforms":{"android":{"default":{"projectId":"mitti-ai","appId":"1:1099442066288:android:772f6dbdbc88c7cd9ef5b5","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"mitti-ai","configurations":{"android":"1:1099442066288:android:772f6dbdbc88c7cd9ef5b5","ios":"1:1099442066288:ios:d6cb90bc0e88ceae9ef5b5"}}}}}}

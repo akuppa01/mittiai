@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1099442066288",
+    "project_id": "mitti-ai",
+    "storage_bucket": "mitti-ai.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099442066288:android:772f6dbdbc88c7cd9ef5b5",
+        "android_client_info": {
+          "package_name": "com.mittiai.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAdaQ6EP9vutTxxm8zwHkrjqj3JgJnTx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

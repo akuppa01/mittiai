@@ -1,0 +1,20 @@
+# Directory containing the input arb files
+arb-dir: lib/l10n
+
+# The input arb file that defines the default language
+template-arb-file: app_en.arb
+
+# The Dart file that will be generated with the AppLocalizations class
+output-localization-file: app_localizations.dart
+
+# The class name of the generated localizations
+output-class: AppLocalizations
+
+# Explicitly set the output directory within lib
+output-dir: lib/generated/l10n
+
+# Turn OFF synthetic package generation
+synthetic-package: false
+
+# Make sure nullable-getter is true (usually default, but good to be explicit)
+nullable-getter: true

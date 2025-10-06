@@ -1,0 +1,74 @@
+name: mitti_ai
+description: "A farming assistant app."
+publish_to: 'none'
+
+version: 1.0.2+5
+
+environment:
+  sdk: '>=3.8.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations: # Added
+    sdk: flutter         # Added
+  flutter_tts: ^4.2.3           # Text-to-speech
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.5+1              # State management
+  http: ^1.5.0                  # API calls
+  shared_preferences: ^2.5.3    # Local storage
+  speech_to_text: ^7.3.0        # Voice input
+  intl: ^0.20.2                  # Internationalization (adjusted for gen-l10n)
+  google_fonts: ^6.3.2          # Better typography
+  animations: ^2.0.11            # Smooth transitions
+  lottie: ^3.3.1                # Animated illustrations
+  uuid: ^4.5.1
+  device_calendar: ^4.3.3
+  timezone: ^0.9.4
+  dio: ^5.9.0
+  flutter_dotenv: ^6.0.0
+  audioplayers: ^6.5.1
+  path_provider: ^2.1.5
+  permission_handler: ^12.0.1
+  webfeed_revised: ^0.9.0
+  connectivity_plus: ^7.0.0  # optional - detect connectivity
+  html: ^0.15.6
+  workmanager: ^0.9.0+3
+  sqflite: ^2.4.2
+  path: ^1.9.1
+  url_launcher: ^6.3.2
+  flutter_native_splash: ^2.4.6
+  firebase_core: ^4.1.1  # Check for the latest version on pub.dev
+  firebase_auth: ^6.1.0 # Check for the latest version on pub.dev
+  cloud_firestore: ^6.0.2 # Check for the latest version on pub.dev (for storing user data)
+  device_info_plus: ^12.1.0 # Or the latest version
+  package_info_plus: ^9.0.0 # Or the latest version
+  firebase_analytics: ^12.0.2
+  country_code_picker: ^3.4.0 # Added by Agent
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true # Added this line
+
+  assets:
+    #- .env
+    - assets/mitti_ai_logo.png
+    - assets/farm_loadingscreen.png
+    # If you have a general assets folder you want to include everything from:
+    # - assets/
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/splash_farm.jpg
+  android: true
+  ios: true
+  android_gravity: centerCrop
+  ios_content_mode: scaleAspectFill
+  preserve_next_image: true

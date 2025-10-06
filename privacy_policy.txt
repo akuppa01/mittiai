@@ -1,0 +1,62 @@
+PRIVACY POLICY FOR MITTI AI
+
+Last Updated: September 24, 2025
+
+INTRODUCTION
+Mitti AI is a farming assistant mobile application that helps users with agricultural advice and voice-based interactions. This privacy policy explains how we handle your information.
+
+PERMISSIONS WE USE
+
+RECORD_AUDIO Permission:
+- Purpose: To enable voice input for farming queries and commands
+- Usage: Audio is processed locally on your device for speech-to-text conversion
+- Storage: Audio recordings are not stored permanently on our servers
+- Sharing: Audio data is not shared with third parties
+
+INTERNET Permission:
+- Purpose: To fetch farming information, weather data, and app updates
+- Usage: Connects to farming databases and weather services
+- Data: Only farming-related queries are transmitted
+
+CALENDAR Permissions (READ_CALENDAR, WRITE_CALENDAR):
+- Purpose: To set farming reminders and schedules
+- Usage: Creates calendar events for farming tasks and reminders
+- Storage: Calendar data remains on your device
+
+STORAGE Permission:
+- Purpose: To save app preferences and farming data locally
+- Usage: Stores user settings and farming history on device
+- Sharing: Local data is not transmitted to external servers
+
+INFORMATION COLLECTION
+We collect minimal information necessary for app functionality:
+- Voice commands (processed locally)
+- Farming preferences and settings
+- App usage statistics (anonymized)
+
+DATA SECURITY
+- All data processing happens locally on your device when possible
+- Voice data is not stored permanently
+- We use industry-standard security measures for any transmitted data
+
+THIRD-PARTY SERVICES
+Our app may use:
+- Speech-to-text services for voice processing
+- Weather APIs for farming recommendations
+- Farming databases for agricultural information
+
+YOUR RIGHTS
+You can:
+- Disable microphone access in device settings
+- Clear app data anytime
+- Uninstall the app to remove all data
+
+CONTACT US
+For questions about this privacy policy:
+Email: [your-email@domain.com]
+Website: [your-website.com]
+
+CHANGES TO POLICY
+We may update this policy. Changes will be posted here with a new date.
+
+This privacy policy is effective as of September 24, 2025.
